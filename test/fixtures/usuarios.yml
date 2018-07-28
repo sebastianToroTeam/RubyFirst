@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id: 
+  usuario: MyString
+  pass: MyString
+  fecha: 2018-07-14
+
+two:
+  id: 
+  usuario: MyString
+  pass: MyString
+  fecha: 2018-07-14

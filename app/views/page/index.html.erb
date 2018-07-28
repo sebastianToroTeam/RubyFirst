@@ -1,0 +1,27 @@
+<header class="masthead bg-primary text-white text-center" style="padding-top: 5rem;">
+    <div class="container">
+    <%= image_tag("buho.png", :alt => "ola", :class => "img-fluid mb-5 d-block mx-auto") %> 
+    
+    <h1 class="text-uppercase mb-0">Nuevas experiencias educativas</h1>
+    <hr class="star-light">
+    <h2 class="font-weight-light mb-0">La mejor experiencias para tu equipo de trabajo</h2>
+    </div>
+</header>
+<br/>
+<!-- Portfolio Grid Section -->
+<section class="portfolio" id="portfolio">    
+    <div class="container">
+        <div class="row">
+            <% if user_signed_in?  %>
+                <div class="col-md-12">
+                    <b><p>Bienvienido </p></b>
+                    <span class="border border-primary"><%= current_user.email %> </span>                 
+                </div>
+            <% end %>
+            <div class="col-md-12" >
+                <%= image_tag("ubicacion.png", :alt => "ola", :class => "img-fluid") %> 
+            </div>
+            <p>What if you want to render a template from an entirely different controller from the one that contains the action code? You can also do that with render, which accepts the full path (relative to app/views) of the template to render. For example, if you're running code in an AdminProductsController that lives in app/controllers/admin, you can render the results of an action to a template in app/views/products this way:</p>
+        </div>
+    </div>
+</section>
